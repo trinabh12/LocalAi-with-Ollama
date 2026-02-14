@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalAi Chat | Modern</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="brand">
+                <h2>LocalAi <span>Pro</span></h2>
+            </div>
+            <div class="model-selector-wrapper">
+                <select id="model-select" onchange="setModel()">
+                    <option>Loading models...</option>
+                </select>
+                <span id="active-model-name">No model</span>
+            </div>
+        </header>
+
+        <div id="chat-box" class="chat-body">
+            <div class="message bot">
+                Hello! Select a model above and let's start chatting.
+            </div>
+        </div>
+
+        <div class="chat-footer">
+            <div id="typing-indicator" style="display:none; color: var(--accent); font-size: 0.8rem; margin-bottom: 8px;">
+                AI is thinking...
+            </div>
+            <div class="input-group">
+                <input type="text" id="user-input" placeholder="Ask me anything..." onkeypress="handleEnter(event)">
+                <button onclick="sendMessage()" id="send-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
