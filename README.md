@@ -89,9 +89,3 @@ python main.py
 * **Frontend:** Vanilla JavaScript with Fetch API for asynchronous communication and CSS Flexbox for the symmetric layout.
 
 ---
-
-## 👨‍💻 Author
-
-**Trinabh Mitra**
-
----
