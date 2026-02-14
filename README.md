@@ -1,9 +1,3 @@
-This is a great idea. A professional README is exactly what you need to back up that LinkedIn post and catch the eye of recruiters at companies like Microsoft or Amazon.
-
-Since you are leading your own machine learning project at Hexaware Technologies, this project shows your ability to build the "connective tissue" between a raw AI model and a user-friendly interface.
-
----
-
 # LocalAi Pro: Modern Flask Interface for Ollama
 
 A sleek, dark-themed web interface for interacting with local Large Language Models. This project bridges the gap between the **Ollama** backend and a professional, responsive frontend.
