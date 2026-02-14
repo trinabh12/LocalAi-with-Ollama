@@ -77,7 +77,8 @@ python main.py
 
 ### **Model Selection**
 
-*Insert a screenshot showing the dropdown menu listing your `llama3.1:latest` or other models.*
+<img width="703" height="321" alt="image" src="https://github.com/user-attachments/assets/0db33182-8a3f-44fc-a4f0-f745115e5948" />
+
 
 ---
 
