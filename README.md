@@ -92,9 +92,5 @@ python main.py
 ## 👨‍💻 Author
 
 **Trinabh Mitra**
-*Intern at Hexaware Technologies*
-*Machine Learning Enthusiast & Master's Candidate (Data Science)*
 
 ---
-
-**Would you like me to generate a high-quality "mockup" image of this UI to help your README stand out?**
