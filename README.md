@@ -46,10 +46,10 @@ Ensure your files are organized as follows to comply with Flask's routing:
 ├── main.py          # Flask Server
 ├── brain.py         # AI Logic (Ollama Integration)
 ├── static/          # Assets
-│   ├── styles.css   # Modern Dark Theme
-│   └── script.js    # Frontend Logic
-└── templates/       # HTML
-    └── chat.html    # The UI
+│   ├── styles.css   # CSS
+│   └── script.js    # JavaScript
+└── templates/       
+    └── chat.html    # HTML
 
 ```
 
@@ -71,9 +71,9 @@ python main.py
 
 ### **The Interface**
 
-*Insert your high-resolution screenshot here (like the one we fixed earlier with the symmetric input bar).*
+<img width="1712" height="872" alt="image" src="https://github.com/user-attachments/assets/75c17e52-19ff-4540-962c-6e36ba50e74e" />
 
-> **Tip:** You can use a tool like "Lightshot" or "Snipping Tool" to capture just the chat container.
+
 
 ### **Model Selection**
 
